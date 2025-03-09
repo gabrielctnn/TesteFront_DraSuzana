@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+body {
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 0%;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+
+
+h3 {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #4A7866;   color: #2F5D50;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;   
+    font-weight: bold;
+}
+
+/* ---------------- HEADER ---------------------------- */
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.logo_header {
+    height: fit-content;
+    padding-right: 13.2%;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li {
+    padding-left: 72px;
+    list-style: none;
+    white-space: nowrap;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #85C2AD;
+    font-size: 18px;
+}
+
+header ul li a {
+    color: #85C2AD;
+    text-decoration-line: none;
+}
+
+.ContatoLI {
+    cursor: pointer;
+}
+
+/* ---------------- BANNER ---------------------------- */
+
+.banner {
+    margin: auto;
+    display: block;
+    margin-bottom: 36px;
+}
+
+.banner h1 {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 49px;
+    color: black;
+    position: absolute;
+    top: 150px;
+    padding: 40px 77px 77px 40px;
+    color: white;
+    line-height: 60px;
+}
+
+.banner strong {
+    background-color: #85C2AD;
+    padding: 5px 5px 10px 5px;
+    font-weight: 700;
+    color: white;
+    display: inline-block;
+}
+
+/*--------- PEDIATRIA E NEFROLOGISTA (formação) ---------*/
+
+.formacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 59px;
+}
+
+.formacao p {
+    width: 90%;
+    font-size: 18px;
+    color: #6D6D6D;
+}
+
+
+/*--------- SOBRE TRABALHO ---------*/
+
+.sobretrabalho {
+    display: flex;
+    margin-bottom: 94px;
+}
+
+.sobretrabalho img {
+    margin-right: 36px;
+}
+
+.sobretrabalho h3 {
+    color:#C49395;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.sobretrabalho strong {
+    color:#C49395;
+}
+
+.sobretrabalho p{
+    color: #6D6D6D;
+    font-size: 18px;
+}
+
+/*--------- TRAJETORIA ---------*/
+
+.trajetoria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.trajetoria img {
+    width: 10%;
+    margin-bottom: 10px;
+}
+
+.trajetoria h3 {
+    color: #2F5D50;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;   
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.subtraj {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.trajtitulo, .trajresidencia {
+    width: 45%;
+}
+
+.subtraj h4 {
+    color: #C49395;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #C49395;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.subtraj ul {
+    padding: 0;
+}
+
+.subtraj li {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 10px;
+    color: #6D6D6D;
+}
+
+/*--------- EXPERIENCIA ---------*/
+
+.experiencia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 82px;
+}
+
+.experiencia h3 {
+    font-size: 18px;
+}
+
+.experiencia li {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    color:#6D6D6D ;
+    font-size: 16px;
+}
+
+/* ---------------- BOTOES CONTATO ---------------------------- */
+
+
+.floating-buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items:flex-end ;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    white-space: nowrap;
+    width: 50px;
+    /* Inicialmente pequeno */
+    transition: width 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.button:hover {
+    width: 200px;
+    background-color: white;
+    /* Expande ao passar o mouse */
+}
+
+.button img {
+    width: 30px;
+    height: 30px;
+    padding-left: 8px;
+}
+
+.tel {
+    background-color: #F97074;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 50px;
+    /* Inicialmente pequeno */
+    transition: width 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.zap {
+    background-color: green;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 50px;
+    /* Inicialmente pequeno */
+    transition: width 0.3s ease-in-out;
+    cursor: pointer;
+
+}
+
+.call {
+    background-color: #FFFFFF;
+    color: white;
+}
+
+.whatsapp {
+    background-color: #FFFFFF;
+    color: white;
+}
+
+.text {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    color: #7C7C7C;
+}
+
+
+.button:hover .text {
+    opacity: 1;
+}
+
+.strongzap {
+    color: green;
+    ;
+}
+
+.strongtel {
+    color: #F97074;
+}

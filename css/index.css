@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+body {
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 0%;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+
+
+h3 {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    color: #2F5D50;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ---------------- HEADER ---------------------------- */
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.logo_header {
+    height: fit-content;
+    padding-right: 13.5%;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li {
+    padding-left: 72px;
+    list-style: none;
+    white-space: nowrap;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    color: #85C2AD;
+    font-size: 18px;
+}
+
+header ul li a {
+    color: #85C2AD;
+    text-decoration-line: none;
+}
+
+.ContatoLI {
+    cursor: pointer;
+}
+
+/* ---------------- BANNER HOME ---------------------------- */
+
+.BANNER-HOME {
+    margin: auto;
+    display: block;
+}
+
+.banner_home button {
+    background-color: #85C2AD;
+    border: none;
+    border-radius: 22px;
+    width: 376px;
+    height: 45px;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    top: 810px;
+    left: 570px;
+}
+
+.banner_home {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner_home h1 {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 49px;
+    color: black;
+    position: absolute;
+    top: 270px;
+    padding: 77.5px;
+    color: white;
+    line-height: 60px;
+}
+
+.banner_home strong {
+    background-color: #85C2AD;
+    padding: 5px 15px;
+    font-weight: 700;
+    color: white;
+    display: inline-block;
+}
+
+/* ---------------- CONSULTAS ---------------------------- */
+
+.consultas {
+    display: flex;
+    flex-direction: row;
+    margin-top: 49px;
+    margin-bottom: 83px;
+    width: 100%;
+}
+
+.consultas div {
+    padding-right: 16px;
+}
+
+.consulta3 {
+    padding-right: 0%;
+}
+
+/* ---------------- SOBRE ---------------------------- */
+
+.sobre {
+    display: flex;
+}
+
+.sobre img {
+    padding-right: 15%;
+}
+
+
+.sobre div h3 {
+    font-size: 24px;
+}
+
+.sobre div h4 {
+    color: #808183;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.sobre div p {
+    width: 75%;
+    line-height: 24px;
+}
+
+.sobre button {
+    background-color: #E4AAAC;
+    border: none;
+    width: 168px;
+    height: 45px;
+    border-radius: 22px;
+    font-size: 18;
+    font-family: "Montserrat", sans-serif;
+    color: #FFFFFF;
+}
+
+/* ---------------- CONSULTORIO ---------------------------- */
+
+.consultorio {
+    display: flex;
+    margin-top: 106px;
+}
+
+.ursin {
+    margin: auto;
+    display: block;
+    padding-right: 3%;
+}
+
+.imagemconsul {
+    padding-left: 1%;
+}
+
+.consultorio {
+    margin-bottom: 89px;
+}
+
+.consultorio p {
+    color: #6D6D6D;
+}
+
+.consultorio div h3 {
+    font-size: 24px;
+}
+
+.consultorio div h4 {
+    color: #808183;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.consultorio div p {
+    line-height: 24px;
+}
+
+
+.ende {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ende img {
+    height: 100%;
+    padding-right: 2%;
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.phone img {
+    height: 100%;
+    padding-right: 2%;
+}
+
+.localization {
+    margin-right: 11px;
+    width: 100%;
+}
+
+.localization button {
+    width: 168px;
+    height: 45px;
+    border: none;
+    border-radius: 22px;
+    justify-content: space-between;
+}
+
+.waze {
+    background-color: #07C6FC;
+    padding-right: 11px;
+}
+
+.maps {
+    background-color: #6320AB;
+}
+
+.botoes {
+    margin-right: 11px;
+}
+
+/* ---------------- NOTICIAS E CONTEUDOS ---------------------------- */
+.noticias_conteudos {
+    width: 100%;
+    margin-bottom: 76px;
+}
+
+.noticias_conteudos h3 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.um {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+}
+
+.um p {
+    position: absolute;
+    top: 270px;
+    padding: 3%;
+    font-size: 16px;
+    color: white;
+}
+
+.dois {
+    display: inline-block;
+    position: relative;
+}
+
+.dois p {
+    position: absolute;
+    top: 90px;
+    padding: 3%;
+    font-size: 16px;
+    color: white;
+}
+
+.noticias {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.VerTodas {
+    text-align: center;
+    font-size: 18px;
+    color: #6D6D6D;
+}
+
+/* ---------------- PERGUNTAS FREQUENTES ---------------------------- */
+
+.perguntas_frequentes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 32px;
+    margin-bottom: 102px;
+}
+
+.perguntas_frequentes img {
+    width: 25%;
+}
+
+.perguntas_frequentes p {
+    color: #E4AAAC;
+    font-size: 18px;
+    margin: 0;
+    padding-top: 7px;
+    padding-bottom: 20px;
+}
+
+.perguntas_frequentes h3 {
+    font-size: 24px;
+    margin: 0;
+    padding-top: 0;
+}
+
+.perguntas_frequentes button {
+    width: 168px;
+    height: 45px;
+    border: none;
+    border-radius: 22px;
+    background-color: #E4AAAC;
+    color: white;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    ;
+}
+
+/* ---------------- AGENDAR CONSULTA ---------------------------- */
+
+
+.agendar_consulta {
+    display: flex;
+    margin-bottom: 83px;
+}
+
+.agendar_consulta img {
+    padding: 2%;
+}
+
+.agendar_consulta h3 {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    color: #2F5D50;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.p1 {
+    font-size: 21px;
+    color: #6D6D6D;
+}
+
+.p2 {
+    font-size: 18px;
+    color: #6D6D6D;
+}
+
+.agendar_consulta {
+    align-items: center;
+}
+
+.botoesagendar {
+    display: flex;
+    /* Alinha os botões lado a lado */
+    gap: 16px;
+}
+
+.agendar_consulta button {
+    background-color: #E4AAAC;
+    border: none;
+    width: 168px;
+    height: 45px;
+    border-radius: 22px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    /* Espaço entre a imagem e o texto dentro do botão */
+    font-size: 16px;
+}
+
+.agendar_consulta button img {
+    width: 20px;
+    /* Tamanho da imagem */
+    height: 20px;
+}
+
+/* ---------------- BOTOES CONTATO ---------------------------- */
+
+
+.floating-buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items:flex-end ;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    white-space: nowrap;
+    width: 50px;
+    /* Inicialmente pequeno */
+    transition: width 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.button:hover {
+    width: 200px;
+    background-color: white;
+    /* Expande ao passar o mouse */
+}
+
+.button img {
+    width: 30px;
+    height: 30px;
+    padding-left: 8px;
+}
+
+.tel {
+    background-color: #F97074;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 50px;
+    /* Inicialmente pequeno */
+    transition: width 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.zap {
+    background-color: green;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 50px;
+    /* Inicialmente pequeno */
+    transition: width 0.3s ease-in-out;
+    cursor: pointer;
+
+}
+
+.call {
+    background-color: #FFFFFF;
+    color: white;
+}
+
+.whatsapp {
+    background-color: #FFFFFF;
+    color: white;
+}
+
+.text {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    color: #7C7C7C;
+}
+
+
+.button:hover .text {
+    opacity: 1;
+}
+
+.strongzap {
+    color: green;
+    ;
+}
+
+.strongtel {
+    color: #F97074;
+}

@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+body {
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 0%;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+
+
+h3 {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    color: #2F5D50;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ---------------- HEADER ---------------------------- */
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.logo_header {
+    height: fit-content;
+    padding-right: 13.5%;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li {
+    padding-left: 72px;
+    list-style: none;
+    white-space: nowrap;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    color: #85C2AD;
+    font-size: 18px;
+}
+
+header ul li a {
+    color: #85C2AD;
+    text-decoration-line: none;
+}
+
+.ContatoLI {
+    cursor: pointer;
+}
+
+/* ---------------- BANNER ---------------------------- */
+
+.banner img {
+    margin: auto;
+    display: block;
+}
+
+.banner button {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: #85C2AD;
+    width: 122px;
+    height: 30px;
+    border-radius: 22px;
+    border: none;
+    position: absolute;
+    top: 239px;
+    margin-left: 67px;
+}
+
+.banner h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 259px;
+    margin-left: 67px;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.banner a {
+    text-decoration-line: none;
+    color: white;
+}
+
+/* ---------------- NOTICIA ---------------------------- */
+
+.noticia {
+    /* superior | direita | inferior | esquerda */
+    padding: 30px 67px 0 67px;
+}
+
+.noticia p {
+    color: #7C7C7C;
+    font-size: 18px;
+}
+
+.noticia div {
+    text-align: center;
+    margin-top: 37px;
+    margin-bottom: 37px;
+}
+
+.noticia div img {
+    padding-right: 56px;
+}
+
+/* ---------------- OUTROS ---------------------------- */
+
+.noticia {
+    margin-bottom: 32px;
+}
+.noticias_conteudos {
+    width: 100%;
+    margin-bottom: 76px;
+}
+
+.noticias_conteudos h3 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.um {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+}
+
+.um p {
+    position: absolute;
+    top: 270px;
+    padding: 3%;
+    font-size: 16px;
+    color: white;
+}
+
+.dois {
+    display: inline-block;
+    position: relative;
+}
+
+.dois p {
+    position: absolute;
+    top: 90px;
+    padding: 3%;
+    font-size: 16px;
+    color: white;
+}
+
+.noticias {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.VerTodas {
+    text-align: center;
+    font-size: 18px;
+    color: #6D6D6D;
+}
+
+
+/* ---------------- BOTOES CONTATO ---------------------------- */
+
+
+.floating-buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items:flex-end ;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    white-space: nowrap;
+    width: 50px;
+    /* Inicialmente pequeno */
+    transition: width 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.button:hover {
+    width: 200px;
+    background-color: white;
+    /* Expande ao passar o mouse */
+}
+
+.button img {
+    width: 30px;
+    height: 30px;
+    padding-left: 8px;
+}
+
+.tel {
+    background-color: #F97074;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 50px;
+    /* Inicialmente pequeno */
+    transition: width 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.zap {
+    background-color: green;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 50px;
+    /* Inicialmente pequeno */
+    transition: width 0.3s ease-in-out;
+    cursor: pointer;
+
+}
+
+.call {
+    background-color: #FFFFFF;
+    color: white;
+}
+
+.whatsapp {
+    background-color: #FFFFFF;
+    color: white;
+}
+
+.text {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    color: #7C7C7C;
+}
+
+
+.button:hover .text {
+    opacity: 1;
+}
+
+.strongzap {
+    color: green;
+    ;
+}
+
+.strongtel {
+    color: #F97074;
+}
