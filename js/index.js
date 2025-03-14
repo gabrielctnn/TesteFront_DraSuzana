@@ -18,7 +18,7 @@ function toggleResposta(elemento) {
 
 // slide home 
 
-const imagens = ["/assets/index/img1.png", "/assets/index/img2.png"];
+const imagens = ["/img/index/img1.png", "/img/index/img2.png"];
 let index = 0;
 
 function trocarImagem() {
